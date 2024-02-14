@@ -6,11 +6,14 @@ public class ElektichenClock extends Clock {
 
     private String wayOfBnutzen;
 
+    private WayOfEnergy wayOfEnergy;
+
     public ElektichenClock(String nameModel, int price, int vieVielVerkauf,
-                           String wayOfBnutzen) {
-        super(nameModel, price);
+                           String wayOfBnutzen, WayOfEnergy wayOfEnergy) {
+        super(nameModel, price, new ZahlBlatClock("электронный"));
         this.vieVielVerkauf = vieVielVerkauf;
         this.wayOfBnutzen = wayOfBnutzen;
+        this.wayOfEnergy = wayOfEnergy;
     }
 
     public int getVieVielVerkauf() {
