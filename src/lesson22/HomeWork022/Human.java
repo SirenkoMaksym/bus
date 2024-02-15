@@ -2,13 +2,13 @@ package lesson22.HomeWork022;
 
 public class Human {
     private String name;
-    private int speed=10;
-    private int rest =15;
+    private int speed;
+    private int rest;
 
     public Human(String name) {
         this.name = name;
-        this.speed = speed;
-        this.rest = rest;
+        this.speed = 10;
+        this.rest =15;
     }
 
     public void run() {

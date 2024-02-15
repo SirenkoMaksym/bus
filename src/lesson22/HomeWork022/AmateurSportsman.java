@@ -1,13 +1,13 @@
 package lesson22.HomeWork022;
 
 public class AmateurSportsman extends Human {
-    int speed = 15;
-    int rest = 10;
+    int speed;
+    int rest;
 
     public AmateurSportsman(String name) {
         super(name);
-        this.speed = speed;
-        this.rest = rest;
+        this.speed = 15;
+        this.rest = 10;
     }
 
     @Override

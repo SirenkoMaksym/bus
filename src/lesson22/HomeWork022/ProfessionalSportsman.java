@@ -2,13 +2,13 @@ package lesson22.HomeWork022;
 
 public class ProfessionalSportsman extends AmateurSportsman{
 
-    int speed = 25;
-    int rest = 5;
+    int speed ;
+    int rest ;
 
     public ProfessionalSportsman(String name) {
         super(name);
-        this.speed = speed;
-        this.rest = rest;
+        this.speed = 25;
+        this.rest = 5;
     }
 
     @Override
